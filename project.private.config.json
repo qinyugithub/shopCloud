@@ -1,0 +1,36 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/sell/sell",
+          "pathName": "pages/sell/sell",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/success/success",
+          "pathName": "pages/success/success",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<view class="pageContainer">
+  <view class="btnWrap">
+    <view class="waterWrap">
+      <button class="btn buyBtn" bindtap="openStore">我要买菜</button>
+    </view>
+    <view class="btnTips">*品类丰富，一小时内送达更便捷</view>
+  </view>
+  <view class="btnWrap">
+    <button class="btn sellBtn" bindtap="openSellPage">我要卖菜</button>
+    <view class="btnTips">*产地量售更省心</view>
+  </view>
+  <view class="logoTips">随时随地享受食物的美好~</view>
+</view>

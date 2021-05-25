@@ -1,0 +1,29 @@
+<view class="sellWrap">
+  <mp-toptips msg="{{error}}" type="error" show="{{error}}"></mp-toptips>
+  <mp-form id="form" rules="{{rules}}" models="{{formData}}">
+    <mp-cells title="联系人信息">
+      <mp-cell prop="userName" title="姓名:">
+        <input bindinput="formInputChange" data-field="userName" class="weui-input" placeholder="请输入姓名" />
+      </mp-cell>
+      <mp-cell prop="phoneNum" title="手机号码:">
+        <input bindinput="formInputChange" data-field="phoneNum" type="number" class="weui-input"
+          placeholder="请输入手机号码" />
+      </mp-cell>
+    </mp-cells>
+    <mp-cells title="商品信息" footer="信息提交后将对您电话回访，请保持手机通畅">
+      <mp-cell prop="freshName" title="商品名称:">
+        <input bindinput="formInputChange" data-field="freshName" class="weui-input" placeholder="如：小白菜/火龙果" />
+      </mp-cell>
+      <mp-cell prop="price" title="预售价格:">
+        <input bindinput="formInputChange" data-field="price" class="weui-input" placeholder="如：3.5元每斤" />
+      </mp-cell>
+    </mp-cells>
+    <view class="weui-btn-area">
+      <button class="weui-btn" type="primary" bindtap="submitForm">确定</button>
+    </view>
+  </mp-form>
+
+  <mp-dialog title="提示" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
+    <view>网络错误，请稍后再试</view>
+  </mp-dialog>
+</view>

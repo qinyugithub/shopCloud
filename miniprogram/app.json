@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/sell/sell",
+    "pages/success/success"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "一小时达",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "useExtendedLib": {
+    "weui": true
+  }
+}

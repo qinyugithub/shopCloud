@@ -1,0 +1,13 @@
+<view class="page">
+    <mp-msg type="success" title="保存成功">
+        <view slot="desc">
+        感谢您提供量贩渠道，请保持手机通畅，稍后会为您电话回访！
+        </view>
+        <view slot="handle">
+            <button class="weui-btn" type="primary" bindtap="finish">完成</button>
+        </view>
+        <view slot="footer">
+            <view class="weui-footer__text">随时随地享受食物的美好</view>
+        </view>
+    </mp-msg>
+</view>
